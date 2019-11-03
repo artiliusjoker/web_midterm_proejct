@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="vi">
 <% include ./../../partials/header/head %>
+<link rel="stylesheet" type="text/css" href="styles/signup.css">
 <link rel="stylesheet" type="text/css" href="styles/regular_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/regular_responsive.css">
 </head>
@@ -11,6 +12,66 @@
 
         <!-- Header -->
         <% include ./../../partials/header/header %>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-md-offset-4">
+                    <form class="form-horizontal" action='' method="POST">
+                        <fieldset>
+                            <div id="legend">
+                                <legend class="">Đăng kí</legend>
+                            </div>
+                            <div class="control-group">
+                                <!-- Username -->
+                                <label class="control-label" for="username">Tên đăng nhập</label>
+                                <div class="controls">
+                                    <input type="text" id="username" name="username" placeholder=""
+                                        class="input-xlarge">
+                                    <p class="help-block">Nhập tên đăng nhập của bạn
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <!-- E-mail -->
+                                <label class="control-label" for="email">E-mail</label>
+                                <div class="controls">
+                                    <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
+                                    <p class="help-block">Nhập email của bạn</p>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <!-- Password-->
+                                <label class="control-label" for="password">Mật khẩu</label>
+                                <div class="controls">
+                                    <input type="password" id="password" name="password" placeholder=""
+                                        class="input-xlarge">
+                                    <p class="help-block">Bạn nên đặt mật khẩu mạnh</p>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <!-- Password -->
+                                <label class="control-label" for="password_confirm">Nhập lại mật khẩu</label>
+                                <div class="controls">
+                                    <input type="password" id="password_confirm" name="password_confirm" placeholder=""
+                                        class="input-xlarge">
+                                    <p class="help-block">Nhập mật khẩu trên</p>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <!-- Button -->
+                                <div class="controls">
+                                    <button class="btn btn-success">Đăng kí nào</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+
         <!-- Newsletter -->
         <% include ./../../partials/footer/newsletter %>
         <!-- Footer -->

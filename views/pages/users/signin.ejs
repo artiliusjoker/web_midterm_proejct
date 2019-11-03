@@ -3,6 +3,7 @@
 <% include ./../../partials/header/head %>
 <link rel="stylesheet" type="text/css" href="styles/regular_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/regular_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/signin.css">
 </head>
 
 <body>
@@ -11,6 +12,29 @@
 
         <!-- Header -->
         <% include ./../../partials/header/header %>
+        <div id="logreg-forms">
+            <form class="form-signin">
+                <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Đăng nhập</h1>
+                <div class="social-login">
+                    <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i>
+                            Đăng nhập với Facebook</span> </button>
+                    <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i>
+                            Đăng nhập với Google+</span> </button>
+                </div>
+                <p style="text-align:center"> HOẶC </p>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required=""
+                    autofocus="">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+
+                <button class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i> Đăng nhập
+                    </button>
+                <a href="/users/reset" id="forgot_pswd">Quên mật khẩu ?</a>
+                <hr>
+                <!-- <p>Don't have an account!</p>  -->
+                <button class="btn btn-primary btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i>
+                    Đăng kí tài khoản</button>
+            </form>
+        </div>
         <!-- Newsletter -->
         <% include ./../../partials/footer/newsletter %>
         <!-- Footer -->
