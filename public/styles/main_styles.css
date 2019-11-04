@@ -841,6 +841,7 @@ select option
 	box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
 	background: #FFFFFF;
 }
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 .header.scrolled .main_nav
 {
 	position: fixed;
@@ -865,6 +866,7 @@ select option
 	padding-left: 35px;
 	cursor: pointer;
 	z-index: 1;
+	font-family: 'Montserrat', sans-serif;
 }
 .cat_menu_title
 {
@@ -1279,6 +1281,7 @@ select option
 {
 	padding-top: 70px;
 	padding-bottom: 70px;
+	font-family: 'Montserrat', sans-serif;
 }
 .char_item
 {
@@ -1317,6 +1320,7 @@ select option
 .deals_featured
 {
 	width: 100%;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /*********************************
@@ -2002,6 +2006,7 @@ select option
 	font-weight: 500;
 	color: #000000;
 	line-height: 1.2;
+	font-family: 'Montserrat', sans-serif;
 }
 .popular_categories_slider_nav
 {
@@ -2208,6 +2213,7 @@ select option
 	width: 100%;
 	padding-top: 96px;
 	padding-bottom: 96px;
+	font-family: 'Montserrat', sans-serif;
 }
 .new_arrivals_title
 {
@@ -2516,6 +2522,7 @@ select option
 	background: #eff6fa;
 	padding-bottom: 50px;
 	margin-top: -77px;
+	font-family: 'Montserrat', sans-serif;
 }
 .bestsellers_panel
 {
@@ -2742,6 +2749,7 @@ select option
 	width: 100%;
 	padding-top: 80px;
 	padding-bottom: 80px;
+	font-family: 'Montserrat', sans-serif;
 }
 .advert
 {
@@ -2838,6 +2846,7 @@ select option
 .trends_title
 {
 	padding-right: 50px;
+	font-family: 'Montserrat', sans-serif;
 }
 .trends_text
 {
@@ -3032,6 +3041,7 @@ select option
 {
 	padding-top: 96px;
 	padding-bottom: 125px;
+	
 }
 .reviews_title_container
 {
@@ -3041,6 +3051,7 @@ select option
 {
 	font-weight: 500;
 	margin-bottom: 14px;
+	font-family: 'Montserrat', sans-serif;
 }
 .reviews_all
 {
@@ -3164,6 +3175,7 @@ select option
 .viewed_title
 {
 	margin-bottom: 14px;
+	font-family: 'Montserrat', sans-serif;
 }
 .viewed_nav_container
 {
@@ -3382,6 +3394,7 @@ select option
 	padding-top: 60px;
 	padding-bottom: 60px;
 	box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+	font-family: 'Montserrat', sans-serif;
 }
 .newsletter_container
 {
@@ -3517,6 +3530,7 @@ select option
 {
 	padding-top: 52px;
 	padding-bottom: 40px;
+	font-family: 'Montserrat', sans-serif;
 }
 .footer .logo_container
 {
