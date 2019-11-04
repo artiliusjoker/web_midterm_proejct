@@ -5,6 +5,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Homepage' });
 });
+router.get('/search', function(req, res, next) {
+  res.render('pages/web/search', { title: 'Searched' });
+});
 router.get('/blog', function(req, res, next) {
   res.render('pages/web/blog', { title: 'Blog' });
 });
